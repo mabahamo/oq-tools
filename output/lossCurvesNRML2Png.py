@@ -12,6 +12,8 @@ import sys
 import argparse
 from lxml import etree
 import numpy
+import matplotlib as mpl
+mpl.use('Agg')
 import matplotlib.pyplot as plt
 
 xmlNRML = '{http://openquake.org/xmlns/nrml/0.3}'
